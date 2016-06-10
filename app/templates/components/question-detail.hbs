@@ -1,1 +1,12 @@
-{{yield}}
+<div style="padding-left:20px;padding-top:20px">
+<h4>Answers</h4>
+<ul>
+
+  {{#each question.answers as |answer|}}
+    <li>
+        {{answer.contents}}<br>
+        {{answer.author}}
+    </li>
+  {{/each}}
+</ul>
+</div>

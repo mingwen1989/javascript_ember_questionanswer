@@ -1,17 +1,35 @@
 { "questions": [{
-    "title": "Ribeye ball tip beef, swine turkey picanha",
+    "title": "What is ribeye ball tip beef, swine turkey picanha?",
     "contents": "Bacon ipsum dolor amet leberkas prosciutto boudin capicola pork loin shankle flank turducken kielbasa turkey ham porchetta chuck. Chicken flank short loin venison. Cupim pork chop cow, rump picanha short ribs porchetta biltong boudin salami jerky doner pork loin landjaeger. Chicken shankle ball tip pork chop. Pastrami andouille turducken pork loin flank ribeye beef, brisket kielbasa pancetta shank picanha filet mignon pork chop spare ribs. Shankle filet mignon pork loin strip steak short loin meatloaf picanha ground round spare ribs turducken corned beef alcatra rump shank landjaeger. Bresaola tri-tip capicola salami, pork chop beef ribs ball tip brisket ribeye biltong filet mignon picanha pig.",
     "author": "Benjamin Franklin",
-    "notes": "a lengthy explanation"
+    "notes": "a lengthy explanation",
+    "answers": {
+      "0": true,
+      "1": true,
+      "2": true
+    }
   }, {
-    "title": "Ribeye ball tip beef, swine turkey picanha",
+    "title": "What is ribeye ball tip beef, swine turkey picanha?",
     "contents": "Bacon ipsum dolor amet leberkas prosciutto boudin capicola pork loin shankle flank turducken kielbasa turkey ham porchetta chuck. Chicken flank short loin venison. Cupim pork chop cow, rump picanha short ribs porchetta biltong boudin salami jerky doner pork loin landjaeger. Chicken shankle ball tip pork chop. Pastrami andouille turducken pork loin flank ribeye beef, brisket kielbasa pancetta shank picanha filet mignon pork chop spare ribs. Shankle filet mignon pork loin strip steak short loin meatloaf picanha ground round spare ribs turducken corned beef alcatra rump shank landjaeger. Bresaola tri-tip capicola salami, pork chop beef ribs ball tip brisket ribeye biltong filet mignon picanha pig.",
     "author": "Steve Carell",
     "notes": "another lengthy explanation"
   }, {
-    "title": "Ribeye ball tip beef, swine turkey picanha",
+    "title": "What is ribeye ball tip beef, swine turkey picanha?",
     "contents": "Bacon ipsum dolor amet leberkas prosciutto boudin capicola pork loin shankle flank turducken kielbasa turkey ham porchetta chuck. Chicken flank short loin venison. Cupim pork chop cow, rump picanha short ribs porchetta biltong boudin salami jerky doner pork loin landjaeger. Chicken shankle ball tip pork chop. Pastrami andouille turducken pork loin flank ribeye beef, brisket kielbasa pancetta shank picanha filet mignon pork chop spare ribs. Shankle filet mignon pork loin strip steak short loin meatloaf picanha ground round spare ribs turducken corned beef alcatra rump shank landjaeger. Bresaola tri-tip capicola salami, pork chop beef ribs ball tip brisket ribeye biltong filet mignon picanha pig.",
     "author": "Mona Lisa",
     "notes": "yet another lengthy explanation"
+  }],
+  "answers": [{
+  "contents": "This is an answer",
+  "author": "Bill Gates",
+  "question": "0"
+  }, {
+  "contents": "This is another answer",
+  "author": "Steve Jobs",
+  "question": "0"
+  },{
+  "contents": "This is an answer",
+  "author": "Bill Gates",
+  "question": "0"
   }]
 }
