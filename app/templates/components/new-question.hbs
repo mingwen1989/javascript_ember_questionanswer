@@ -1,0 +1,32 @@
+<div style="border:1px #ccc solid;margin-left:20px;margin-right:20px;box-shadow:1px 1px 1px 0px #ccc;margin-top:10px;padding:20px">
+{{#if addNewQuestion}}
+<h1>New Question</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="title">Title</label>
+        {{input value=title id="title"}}
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author"}}
+      </div>
+
+      <div class="form-group">
+        <label for="contents">Contents</label>
+        {{input value=contents id="contents"}}
+      </div>
+
+      <div class="form-group">
+        <label for="notes">Notes</label>
+        {{input value=notes id="notes"}}
+      </div>
+
+      <button {{action 'save1'}}>Save</button>
+    </form>
+  </div>
+  {{else}}
+      <button {{action 'questionFormShow'}}>New Question</button>
+  {{/if}}
+</div>
