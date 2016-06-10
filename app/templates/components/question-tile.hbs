@@ -5,5 +5,5 @@
   <p>{{question.contents}}</p>
   <p>{{question.notes}}</p>
   <hr>
-  <button {{action 'delete' question}}>Delete</button>
+  <button {{action 'delete' question}}>Delete</button>{{update-question question=question update="update"}}
 </div>
