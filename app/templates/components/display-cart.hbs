@@ -2,7 +2,7 @@
   <h3>Saved Questions</h3>
 <ul>
 {{#each readingList.items as |item|}}
-  {{#link-to 'question-detail' item.id}}<li> {{item.title}} by {{item.author}}</li>{{/link-to}}
+  {{#link-to 'question' item.id}}<li> {{item.title}} by {{item.author}}</li>{{/link-to}}
 {{/each}}
 </ul>
 </div>
