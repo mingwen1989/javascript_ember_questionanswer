@@ -1,3 +1,8 @@
+<div style="border:1px #ccc solid;margin-left:20px;margin-right:20px;box-shadow:1px 1px 1px 0px #ccc;margin-top:10px;padding:20px;border-radius:5px">
+  <h3>Saved Questions</h3>
+<ul>
 {{#each readingList.items as |item|}}
-  {{#link-to 'question-detail' item.id}}<h3>&bull; {{item.title}} by {{item.author}}</h3>{{/link-to}}
+  {{#link-to 'question-detail' item.id}}<li> {{item.title}} by {{item.author}}</li>{{/link-to}}
 {{/each}}
+</ul>
+</div>
