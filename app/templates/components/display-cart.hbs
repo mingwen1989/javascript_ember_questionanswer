@@ -1,0 +1,3 @@
+{{#each readingList.items as |item|}}
+  {{#link-to 'question-detail' item.id}}<h3>&bull; {{item.title}} by {{item.author}}</h3>{{/link-to}}
+{{/each}}
